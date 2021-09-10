@@ -133,7 +133,7 @@ spotdl==3.1.4
 spotify-token==1.0.0
 spotipy==2.16.1
 sqlalchemy==1.2
-sqlparse==0.4.1
+sqlparse==0.4.2
 telegraph==1.4.1
 telethon
 tornado==6.1
