@@ -61,7 +61,7 @@ hpack==3.0.0
 hstspreload==2020.11.21
 httpcore==0.9.1
 httplib2==0.18.1
-httpx==0.13.3
+httpx==0.23.0
 humanize==3.1.0
 hyperframe==5.2.0
 idna==2.10
