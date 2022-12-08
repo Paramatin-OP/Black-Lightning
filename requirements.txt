@@ -16,7 +16,7 @@ blob==0.16
 borg==2012.4.1
 bs4==0.0.1
 cachetools==4.1.1
-certifi==2020.11.8
+certifi==2022.12.7
 cffi==1.14.4
 cfscrape==2.1.1
 chardet==3.0.4
