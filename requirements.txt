@@ -131,7 +131,7 @@ spamwatch==0.3.0
 speedtest==0.0.1
 spotdl==3.1.4
 spotify-token==1.0.0
-spotipy==2.16.1
+spotipy==2.22.1
 sqlalchemy==1.2
 sqlparse==0.4.1
 telegraph==1.4.1
