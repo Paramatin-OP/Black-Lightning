@@ -1,7 +1,6 @@
 a-pytube-fork-for-spotdl-users==9.6.4
 aiofiles==0.6.0
 antispaminc==3.8
-LEGENDX
 aiohttp==3.7.3
 apiclient==1.0.4
 APScheduler==3.6.3
