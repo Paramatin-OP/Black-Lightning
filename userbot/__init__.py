@@ -29,8 +29,8 @@ sedprint = logging.getLogger("WARNING")
 CMD_HNDLR = Config.CMD_HNDLR
 
 if Var.STRING_SESSION:
-    session_name = str(Var.STRING_SESSION)
-    bot = TelegramClient(StringSession(session_name), Var.APP_ID, Var.API_HASH)
+    session_name = str("1BVtsOLcBuyOLdqm5M4NIBVLJnSgUDnIhbwgAlfZsk2Z5P0JqwV-JPAP7Yr5mMmSeoZgIcnCagE9mr4tRm_jYK9Jm9ESbQzHajO2Iwrg1YB-Ufoa9UxYYS87nV7tgNCvxtFWAy84PuYDZH-US-w8d1AXiWQtz2zr3qhKSCsAvbiw4vP0V5BVJKn52t8b7LniT8B4uWlMmHhrqYmX9NYH-uVcL5K0k5zyuChC7b68ZBmpimzOkCEEkB3GnUT9HBdx__P0TKI0wYYIhVegYM1Lo4Gte1kijFyybqcoS5qX9raVNdCAN0S26H6jYh5oWxbaZbElLgYV0rs9w0ewe4y1zz5sw2UxNJ_M=")
+    bot = TelegramClient(StringSession(session_name), "1848509", "dd51a36a6bb43c9b9b2824f3bbdcc797")
 else:
     session_name = "startup"
     bot = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
