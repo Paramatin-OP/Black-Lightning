@@ -8,3 +8,4 @@ else:
 
 
 Var = config
+Config = Var
