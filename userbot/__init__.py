@@ -26,7 +26,7 @@ api_hash = os.environ.get('API_HASH')
 
 if not api_id or not api_hash:
     raise ValueError("API ID or API Hash is missing. Make sure they are set as environment variables.")
-
+api_id = int(api_id)
 # Initialize the TelegramClient
 bot = TelegramClient('session_name', api_id, api_hash)
 Lastupdate = time.time()
