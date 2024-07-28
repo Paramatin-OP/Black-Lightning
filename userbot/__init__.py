@@ -24,7 +24,7 @@ telever = "5.0"
 apiid = os.environ.get('APP_ID')
 api_hash = os.environ.get('API_HASH')
 session_name = os.environ.get('STRING_SESSION')
-if not api_id or not api_hash:
+if not apiid or not api_hash:
     raise ValueError("API ID or API Hash is missing. Make sure they are set as environment variables.")
 api_id = int(apiid)
 # Initialize the TelegramClient
