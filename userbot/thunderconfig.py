@@ -6,10 +6,10 @@ ENV = bool(os.environ.get("ENV", False))
 
 
 class Config(object):
-    APP_ID = int(os.environ.get("APP_ID", "1848509"))
+    APP_ID = int(os.environ.get("1848509"))
     # 6 is a placeholder
-    API_HASH = os.environ.get("API_HASH", "dd51a36a6bb43c9b9b2824f3bbdcc797")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOLcBuyOLdqm5M4NIBVLJnSgUDnIhbwgAlfZsk2Z5P0JqwV-JPAP7Yr5mMmSeoZgIcnCagE9mr4tRm_jYK9Jm9ESbQzHajO2Iwrg1YB-Ufoa9UxYYS87nV7tgNCvxtFWAy84PuYDZH-US-w8d1AXiWQtz2zr3qhKSCsAvbiw4vP0V5BVJKn52t8b7LniT8B4uWlMmHhrqYmX9NYH-uVcL5K0k5zyuChC7b68ZBmpimzOkCEEkB3GnUT9HBdx__P0TKI0wYYIhVegYM1Lo4Gte1kijFyybqcoS5qX9raVNdCAN0S26H6jYh5oWxbaZbElLgYV0rs9w0ewe4y1zz5sw2UxNJ_M=")
+    API_HASH = os.environ.get("dd51a36a6bb43c9b9b2824f3bbdcc797")
+    STRING_SESSION = os.environ.get("1BVtsOLcBuyOLdqm5M4NIBVLJnSgUDnIhbwgAlfZsk2Z5P0JqwV-JPAP7Yr5mMmSeoZgIcnCagE9mr4tRm_jYK9Jm9ESbQzHajO2Iwrg1YB-Ufoa9UxYYS87nV7tgNCvxtFWAy84PuYDZH-US-w8d1AXiWQtz2zr3qhKSCsAvbiw4vP0V5BVJKn52t8b7LniT8B4uWlMmHhrqYmX9NYH-uVcL5K0k5zyuChC7b68ZBmpimzOkCEEkB3GnUT9HBdx__P0TKI0wYYIhVegYM1Lo4Gte1kijFyybqcoS5qX9raVNdCAN0S26H6jYh5oWxbaZbElLgYV0rs9w0ewe4y1zz5sw2UxNJ_M=")
     DB_URI = os.environ.get("DATABASE_URL", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", None)
     # This is required for the modules involving the file system.
